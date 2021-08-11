@@ -11,6 +11,6 @@ There are some development features on this web page. Inline methodology: inline
 The project could be used as an example of simple web site. 
 
 ### Weblink
-https://nlinkova.github.io/Aussie-Kidz-Charity/
+https://nlinkova.github.io/
 
 
