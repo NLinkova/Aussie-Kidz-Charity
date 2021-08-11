@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Inter/Inter-Regular.woff2") format("woff2"),
+         url("./fonts/Inter/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Inter-Italic.woff2?v=3.19") format("woff2"),
+         url("./fonts/Inter-Italic.woff?v=3.19") format("woff");
+  }
+  
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/Inter/Inter-Bold.woff2") format("woff2"),
+         url("./fonts/Inter/Inter-Bold.woff") format("woff");
+}
+  
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./fonts/Inter/Inter-Black.woff2") format("woff2"),
+         url("./fonts/Inter/Inter-Black.woff") format("woff");
+}
+  
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+    }
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #6dc9ff73;
+    color: #1c3a5f;
+    font-family: Inter, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+header {
+    background-image: url("./images/pexels-moose-photos-1038001.jpg");
+	background-size: contain;
+    background-repeat: repeat-x;
+    padding: 15px;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 400;
+}
+
+h1 {
+    text-rendering: optimizeLegibility;
+    margin: 15px auto;
+    max-width: 720px;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 86px;
+    text-align: center;
+    color: #1E8FBA;
+    -webkit-text-stroke: 2px #18442d;
+}
+
+ul { 
+    list-style: none;
+    margin: 0 20px 0 auto;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin:  0 20px 0 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #1c3a5f;
+    transition: opacity 0.2s linear;
+    opacity: 1;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+section {
+    margin: 70px auto;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+section div {
+    margin: 70px auto;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin: 0 15px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+    text-indent: 25px;
+}
+
+img {
+    width: 400px;
+}
+
+main {
+    margin: 70px auto;
+    text-align: center;
+}
+
+main div {
+    background-image: url("./images/karl-fredrickson-GEJxI_QRPwM-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+main div img {
+    width: 50px;
+    transition: transform 0.4s ease-in;
+    animation: scale 2s linear infinite alternate;
+    position: relative;
+    top: 5px;
+    right: 100px;
+}
+
+span {
+    font-weight: 700;
+}
+
+article  {
+    margin: 70px auto;
+    text-align: center;  
+}
+
+article p {
+    background: url("./images/pexels-karolina-grabowska-5706029.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: white 2px 2px 6px;
+}
+
+footer {
+    background-image: url("./images/pexels-moose-photos-1038001.jpg");
+	background-size: contain;
+    background-repeat: repeat-x;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer li {
+    display: block;
+}
+
+footer p {
+    margin:  0 20px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: black 1px 1px 6px;
+}
